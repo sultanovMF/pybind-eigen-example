@@ -6,5 +6,7 @@ source venv/bin/activate
 скачать либу
 pip install .
 
+![](idw_cpp.png)
+
 
 ОНФ ЖЫВ!
