@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.17)
-project(pybind_eigen_example)
+project(idw)
 
 set(ENABLE_PRECOMPILED_HEADERS OFF)
 

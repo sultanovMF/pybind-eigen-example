@@ -124,12 +124,12 @@ class CMakeBuild(build_ext):
 
 
 setup(
-    name="pybind_eigen_example",
+    name="idw",
     version="0.1.0",
     author="Sultanov M.",
     description="Pybind eigen example",
     long_description="",
-    ext_modules=[CMakeExtension("pybind_eigen_example")],
+    ext_modules=[CMakeExtension("idw")],
     cmdclass={"build_ext": CMakeBuild},
     zip_safe=False,
     extras_require={"test": ["pytest>=6.0"]},
